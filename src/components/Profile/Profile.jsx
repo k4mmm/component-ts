@@ -18,7 +18,7 @@ export const Profile = ({
         <p className={s.location}>{location}</p>
       </div>
 
-      <ul className={s.sadadstats}>
+      <ul className={s.stats}>
         <li>
           <span className={s.label}>Followers</span>
           <span className={s.quantity}>{followers}</span>
